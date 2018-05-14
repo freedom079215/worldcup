@@ -9,7 +9,7 @@
 		a.href=document.referrer;
 		alert([a.protocol,a.host,a.pathname].join('\n'));
 		//alert("previous url is: " + window.history.previous.href);
-		$('#QID').text([a.protocol,a.host,a.pathname])
+		$('#QID').text(a.pathname)
 
 		//console.log( window.history.previous)
 		a='';
